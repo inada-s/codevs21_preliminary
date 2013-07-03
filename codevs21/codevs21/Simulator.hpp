@@ -70,10 +70,10 @@ struct Simulator{
           else if(e){
             field[y-e][x] = field[y][x];
             field[y][x] = 0;
-						ux = max(ux, x);
-						uy = max(uy, y-e);
-						lx = min(lx, x);
-						ly = min(ly, y-e);
+            ux = max(ux, x);
+            uy = max(uy, y-e);
+            lx = min(lx, x);
+            ly = min(ly, y-e);
           }
         }
       }
